@@ -4,11 +4,13 @@ import VendingMachine from "./VendingMachine";
 import Snack1 from "./Snack1";
 import Snack2 from "./Snack2";
 import Snack3 from "./Snack3";
-
+import Navbar from "./Navbar";
+import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Routes>
         <Route path="/" Component={VendingMachine} />
         <Route path="/Snack1" Component={Snack1} />

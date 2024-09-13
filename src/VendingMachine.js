@@ -7,9 +7,9 @@ function VendingMachine() {
             <h1>Vending Machine!</h1>
             <h2>Choose your snack:</h2>
             <ul>
-                <li><Link to="/snack1">Snack 1</Link></li>
-                <li><Link to="/snack2">Snack 2</Link></li>
-                <li><Link to="/snack3">Snack 3</Link></li>
+                <li><Link to="/Snack1">Protein Bar</Link></li>
+                <li><Link to="/Snack2">Sour Worms</Link></li>
+                <li><Link to="/Snack3">Potato Chips</Link></li>
             </ul>
         </div>
     );
